@@ -1,0 +1,27 @@
+{
+  "name": "ozon-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "HOST=https://calculator.ozon.ru npx playwright test --project=chromium",
+    "report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmanuilova/ozon-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nmanuilova/ozon-calculator/issues"
+  },
+  "homepage": "https://github.com/nmanuilova/ozon-calculator#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
